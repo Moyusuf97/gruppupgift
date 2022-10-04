@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+   
 }
 
 
@@ -10,10 +11,10 @@
     min-height:380px;
     height: 600px;
     width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 
 }
 
@@ -29,10 +30,10 @@
   .paragraph{
       position: absolute;
       top: 55%;
-    left: 50%;
-    color: white;
-    font-size: 30px;
-    transform: translate(-50%, -50%);
+      left: 50%;
+      color: white;
+      font-size: 30px;
+      transform: translate(-50%, -50%);
   }
 
 
@@ -52,14 +53,16 @@
 
 }
 
-#main-nav{
+/* #main-nav{
     overflow: hidden;
     padding: 30px;
-}
+} */
 
 #main-nav ul li a{
+
+    display: inline-block;
         color: #f2f2f2;
-        margin-left: 40%;
+        /* margin-left: 40%; */
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -108,7 +111,7 @@
     .flex-container > div{
         width: 100%;
        text-align: center;
-       width: 800px;
+       
     
   }
 
@@ -142,5 +145,81 @@
     text-align: center;
 }
 
+/* @media screen and (max-width: 1200px) and (min-width: 960px){
+    .bg-image{
+        max-width: 1200px;  
+        min-width: 960px;  
+    }
+    #main-content{
+        width: fit-content;
+        block-size: fit-content;
+    }
+
+  } */
 
 
+
+
+@media screen and (max-width: 960px) and (min-width: 768px){
+    
+    .bg-image{
+        max-width: 960px;  
+        min-width: 768px;    
+      
+    
+    }
+    #main-content{
+        width: fit-content;
+        block-size: fit-content;
+    }
+   
+    
+  }
+
+  @media screen and (max-width: 768px){
+        
+    .bg-image{
+        max-width: 768px;  
+    
+    }
+    #main-nav ul li a{ 
+        margin-right: 20px;
+    
+        
+        
+        }
+
+
+    #main-content{
+        width: fit-content;
+        block-size: fit-content;
+    }
+
+    .grid-container{
+        
+        grid-template-columns: 100%;
+        grid-row: 4;
+    
+    
+    }
+
+    .flex-container {
+       flex-direction: column;
+       margin-bottom: 30px;
+    
+    }
+
+    #footer{
+        margin-top:150px;
+    }
+    
+
+    
+
+            
+
+   
+     
+  
+
+ }
