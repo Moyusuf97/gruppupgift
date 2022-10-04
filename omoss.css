@@ -1,0 +1,284 @@
+
+  
+
+
+
+  
+.container {
+    position: relative;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  img { 
+    width: 100%;
+    height: 400px;
+    
+  }
+
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    .sid2 {
+        display:grid;
+        width:100%;
+        margin : 0 auto; 
+        
+       
+    
+     
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        
+        min-height: 300px;
+        column-gap: 30px;
+        
+        
+        
+        } }
+        @media only screen and (min-width: 769px) {
+            .sid3 {
+                display:grid;
+                width:100%;
+                margin : 0 auto; 
+                
+               /*  background-color: greenyellow;*/
+                grid-template-columns: 1fr 1fr;
+             min-height: 100px;
+             column-gap: 30px;
+             
+                
+                }}
+
+                @media only screen and (min-width: 769px) {
+                    .sid3 {
+                        display:grid;
+                        width:100%;
+                        margin : 0 auto; 
+                        
+                     /*    background-color: greenyellow;*/
+                        grid-template-columns: 1fr 1fr;
+                     min-height: 100px;
+                     column-gap: 30px;
+                        
+                        }}
+                        @media only screen and (min-width: 960px) {
+                            .sid3 {
+                                display:grid;
+                                width:100%;
+                                margin : 0 auto; 
+                                
+                               /*  background-color: red;*/
+                                grid-template-columns: 1fr 1fr;
+                             min-height: 100px;
+                             column-gap: 30px;
+                                
+                                }}
+                                @media only screen and (min-width: 1200px) {
+                                    .sid3 {
+                                        display:grid;
+                                        width:100%;
+                                        margin : 0 auto; 
+                                        
+                                        /*background-color:deepskyblue;*/
+                                        grid-template-columns: 1fr 1fr;
+                                     height: auto;
+                                     column-gap: 30px;
+                                        
+                                        }}
+                                      
+
+
+
+
+
+
+                                        .in { background-color:white;
+                                            text-align: center;
+                                          font-size: 48px;
+
+
+                                        }
+                                        .in2 {   font-family: Georgia, 'Times New Roman', Times, serif;
+                                            background-color: white;
+                                            font-size: 16px;
+                                            line-height: 24px;
+
+
+
+                                        }
+
+
+
+                                        @media only screen and (max-width: 768px) {
+                                            .karta {
+                                                display:grid;
+                                                width:100%;
+                                                margin : 0 auto; 
+                                                
+                                              
+                                            
+                                             
+                                              grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                                                
+                                                min-height: 300px;
+                                                column-gap: 30px;
+                                                
+                                                
+                                                
+                                                } }   @media only screen and (min-width: 768px) {
+                                                    .karta2 {
+                                                        display:grid;
+                                                        width:100%;
+                                                        margin : 0 auto; 
+                                                        
+                                                       /*  background-color: red;*/
+                                                        grid-template-columns: 1fr 1fr;
+                                                     min-height: 100px;
+                                                     column-gap: 30px;
+                                                        
+                                                        }}
+
+
+
+
+                                                @media only screen and (min-width: 960px) {
+                                                    .karta2 {
+                                                        display:grid;
+                                                        width:100%;
+                                                        margin : 0 auto; 
+                                                        
+                                                       /*  background-color: red;*/
+                                                        grid-template-columns: 1fr 1fr;
+                                                     min-height: 100px;
+                                                     column-gap: 30px;
+                                                        
+                                                        }}
+
+
+                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                #customers td, #customers th {
+                                                    border: 1px solid #ddd;
+                                                    padding: 8px;
+                                                    
+                                                  }
+                                                  
+                                                  #customers tr:nth-child(even){background-color: #f2f2f2;}
+                                                  
+                                                  #customers tr:hover {background-color: #ddd;}
+                                                  
+                                                  #customers th {
+                                                    padding-top: 12px;
+                                                    padding-bottom: 12px;
+                                                    font-size: 16px;
+                                                    text-align: left;
+                                                    background-color:white;
+                                                    color:black;
+                                                  }
+                                                
+                                                
+                                                
+                                                
+                                                  @media only screen and (max-width: 768px) {
+                                                    footer {
+                                                        display:grid;
+                                                        width:100%;
+                                                        margin : 0 auto; 
+                                                        
+                                                      
+                                                    
+                                                     
+                                                      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                                                        
+                                                        min-height: 300px;
+                                                        column-gap: 30px;
+                                                        
+                                                        
+                                                        
+                                                        } }  
+
+                                                        @media only screen and (min-width: 769px) {
+                                                            .footer2 {
+                                                                display:grid;
+                                                                width:100%;
+                                                                margin : 0 auto; 
+                                                                
+                                                               /*  background-color: greenyellow;*/
+                                                                grid-template-columns: 1fr 1fr ;
+                                                             min-height: 100px;
+                                                             column-gap: 30px;
+                                                             
+                                                                
+                                                                }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                 
+                                               /*   .map-responsive{
+
+                                                    overflow:visible;
+                                                
+                                                    padding-bottom:56.25%;
+                                                
+                                                    position:relative;
+                                                
+                                                    height:0;
+                                                
+                                                }
+                                                
+                                                .map-responsive iframe{
+                                                
+                                                    left:0;
+                                                
+                                                    top:0;
+                                                
+                                                    height:100%;
+                                                
+                                                    width:100%;
+                                                
+                                                    position:absolute;
+                                                
+                                                }*/
+
+                                       
+                                        
+                                
+                            
+
+               

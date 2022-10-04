@@ -1,0 +1,59 @@
+@media only screen and (max-width: 768px) {
+    .foot2 {
+        display:grid;
+        width:100%;
+        margin : 0 auto; 
+        
+       
+    
+     
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        
+        min-height: 300px;
+        
+       /* background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-electronic-technology-website-texture-background-banner-image_156039.jpg");*/
+        
+        
+        } }
+        @media only screen and (min-width: 769px) {
+            .foot4 {
+                display:grid;
+                width:100%;
+                margin : 0 auto; 
+                
+               /*  background-color: greenyellow;*/
+                grid-template-columns: 1fr 1fr 1fr;
+             min-height: 100px;
+             
+
+            /* background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-electronic-technology-website-texture-background-banner-image_156039.jpg");*/
+           /*  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");*/
+             
+             
+                }}
+
+                #section1{
+                    background-color: transparent;
+                    text-align: center;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    font-size: 16px;
+                    background-color: black;
+                    color:white;
+                }
+                #section2{
+                    background-color: transparent;
+                    text-align: center;
+                    font-family:Georgia, 'Times New Roman', Times, serif;
+                    font-size:16px;
+                    background-color: black;
+                    color:white;
+               
+                }
+                #section3{
+                    background-color:transparent;
+                    text-align: center;
+                    font-size: 16px;
+                    text-align: center;
+                    color:white;
+                    background-color: black;
+                }
