@@ -91,24 +91,24 @@ nav .selected {
 
 .box4 {
   flex-grow: 1;
-  height: 300px;
-  width: 320px;
+  height: 100%;
+  width: 100%;
   text-align: center;
   
 }
 
 .box5 {
   flex-grow: 1;
-  height: 300px;
-  width: 320px;
+  height: 100%;
+  width: 100%;
   text-align: center;
   
 }
 
 .box6 {
   flex-grow: 1;
-  height: 300px;
-  width: 320px;
+  height: 100%;
+  width: 100%;
   text-align: center;
   
 }
@@ -130,6 +130,36 @@ nav .selected {
   font-style: oblique;
 }
 
+@media screen and (max-width: 960px) {
+  nav .links {
+     float: none;
+     display: grid;
+     text-align: center;
+  }
+  .rightSection {
+     float: none;
+  }
+  .box1 {
+    display: grid;
+    grid-column-start: 7;
+    grid-row-start: auto;
+    
+  }
+  .box2 {
+    display: grid;
+    grid-column-start: 7;
+    grid-row-start: auto;
+   
+  }
+  .box3 {
+    display: grid;
+    grid-column-start: 7;
+    grid-row-start: auto;
+   
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   nav .links {
      float: none;
@@ -141,19 +171,19 @@ nav .selected {
   }
   .box1 {
     display: grid;
-    grid-column-start: 5;
+    grid-column-start: 7;
     grid-row-start: auto;
     
   }
   .box2 {
     display: grid;
-    grid-column-start: 5;
+    grid-column-start: 7;
     grid-row-start: auto;
    
   }
   .box3 {
     display: grid;
-    grid-column-start: 5;
+    grid-column-start: 7;
     grid-row-start: auto;
    
   }
@@ -170,28 +200,28 @@ nav .selected {
    }
    .box1 {
     display: grid;
-    grid-column-start: 5;
+    grid-column-start: 3;
     grid-row-start: auto;
    
     
   }
   .box2 {
     display: grid;
-    grid-column-start: 5;
+    grid-column-start: 3;
     grid-row-start: auto;
     
     
   }
   .box3 {
     display: grid;
-    grid-column-start: 5;
+    grid-column-start: 3;
     grid-row-start: auto;
     
    
   }
-
 }
-  
+
+
 
 
 
@@ -216,11 +246,10 @@ nav .selected {
      
   
    
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
       
       min-height: 300px;
       
-      /*background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-electronic-technology-website-texture-background-banner-image_156039.jpg");*/
       
       
       } }
@@ -234,9 +263,6 @@ nav .selected {
               grid-template-columns: 1fr 1fr 1fr;
            min-height: 100px;
            
-
-          /* background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-electronic-technology-website-texture-background-banner-image_156039.jpg");*/
-         /*  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");*/
            
            
               }}
