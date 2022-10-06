@@ -1,0 +1,295 @@
+
+
+
+
+body {
+  width: 100%;
+  min-height: auto;
+}
+
+nav {
+  overflow: hidden;
+  background-color: black;
+  padding: 10px;
+}
+.links {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+nav .logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+nav .links:hover {
+  background-color: rgb(214, 238, 77);
+  color: rgb(42, 10, 94);
+}
+nav .selected {
+  background-color: dodgerblue;
+  color: white;
+}
+.rightSection {
+  float: right;
+}
+
+/* Meny container delen css */
+                                  
+.container {
+  display: grid;
+  margin: 50px auto;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(12,1fr);
+}
+
+.box1 {
+  height: 250px;
+  margin: 10px;
+  grid-column-start: 2;
+}
+
+.box2 {
+  height: 250px;
+  margin: 10px;
+  grid-column-start: 6;
+  
+}
+
+.box3 {
+  height: 250px;
+  margin: 10px;
+  grid-column-start: 10;
+  
+}
+
+.box1 img {
+  border-radius: 50%;
+  margin-left: 10px;
+
+}
+
+.box2 img {
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.box3 img {
+  border-radius: 50%;
+}
+
+.container2 {
+  display: flex;
+  margin: 20px auto;
+}
+
+.box4 {
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.box5 {
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.box6 {
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.box4 h2 {
+  font-family: cursive;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.box5 h2 {
+  font-family: cursive;
+  font-weight: bold;
+  font-style: oblique;
+}
+.box6 h2 {
+  font-family: cursive;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+@media screen and (max-width: 960px) {
+  nav .links {
+     float: none;
+     display: grid;
+     text-align: center;
+  }
+  .rightSection {
+     float: none;
+  }
+  .box1 {
+    display: grid;
+    grid-column-start: 7;
+    grid-row-start: auto;
+    
+  }
+  .box2 {
+    display: grid;
+    grid-column-start: 7;
+    grid-row-start: auto;
+   
+  }
+  .box3 {
+    display: grid;
+    grid-column-start: 7;
+    grid-row-start: auto;
+   
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  nav .links {
+     float: none;
+     display: grid;
+     text-align: center;
+  }
+  .rightSection {
+     float: none;
+  }
+  .box1 {
+    display: grid;
+    grid-column-start: 7;
+    grid-row-start: auto;
+    
+  }
+  .box2 {
+    display: grid;
+    grid-column-start: 7;
+    grid-row-start: auto;
+   
+  }
+  .box3 {
+    display: grid;
+    grid-column-start: 7;
+    grid-row-start: auto;
+   
+  }
+}
+
+  @media only screen and (max-width: 600px) {
+    nav .links {
+      float: none;
+      display: grid;
+      text-align: center;
+   }
+   .rightSection {
+      float: none;
+   }
+   .box1 {
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: auto;
+   
+    
+  }
+  .box2 {
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: auto;
+    
+    
+  }
+  .box3 {
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: auto;
+    
+   
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* Footer delen css */
+
+
+
+@media only screen and (max-width: 768px) {
+  .foot2 {
+      display:grid;
+      width:100%;
+      margin : 0 auto; 
+      
+     
+  
+   
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+      
+      min-height: 300px;
+      
+      
+      
+      } }
+      @media only screen and (min-width: 769px) {
+          .foot4 {
+              display:grid;
+              width:100%;
+              margin : 0 auto; 
+              
+             /*  background-color: greenyellow;*/
+              grid-template-columns: 1fr 1fr 1fr;
+           min-height: 100px;
+           
+           
+           
+              }}
+
+              #section1{
+                  background-color: transparent;
+                  text-align: center;
+                  font-family: Georgia, 'Times New Roman', Times, serif;
+                  font-size: 16px;
+                  background-color: black;
+                  color:white;
+              }
+              #section2{
+                  background-color: transparent;
+                  text-align: center;
+                  font-family:Georgia, 'Times New Roman', Times, serif;
+                  font-size:16px;
+                  background-color: black;
+                  color:white;
+             
+              }
+              #section3{
+                  background-color:transparent;
+                  text-align: center;
+                  font-size: 16px;
+                  text-align: center;
+                  color:white;
+                  background-color: black;
+              }
+
